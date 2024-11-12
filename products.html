@@ -22,7 +22,23 @@
     <h1>Products</h1>
     <div id="productMain">
       <div class="productGrid">
-        <div class="productSide"></div>
+        <div class="productSide">
+          <form id="sortRadio">
+            <input type="radio" id="featured" value="featured" /><label
+              for="featured"
+              >Featured</label
+            >
+            <input type="radio" id="prices" value="prices" /><label for="prices"
+              >Prices</label
+            >
+            <input type="radio" id="sale" value="sale" /><label for="sale"
+              >On Sale</label
+            >
+            <input type="radio" id="stock" value="stock" /><label for="stock"
+              >In Stock</label
+            >
+          </form>
+        </div>
         <div class="productItem">
           <div class="productOne">
             <h1 class="productTitle">Item Name</h1>
@@ -53,6 +69,13 @@
         </div>
       </div>
     </div>
+    <footer>
+      <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="products.html">Products Page</a></li>
+        <li><a href="contact.html">Contact Us Page</a></li>
+      </ul>
+    </footer>
     <style src="script.js"></style>
   </body>
 </html>

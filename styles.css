@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+header {
+  background-color: black;
+  font-size: 2rem;
+}
+
 body {
   background-color: #535e4b;
 }
@@ -19,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -50,6 +55,8 @@ li {
   float: left;
   width: 15vw;
   height: 60vh;
+  color: white;
+  font-size: 2rem;
 }
 
 .productItem {
@@ -61,40 +68,50 @@ li {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, auto);
   color: white;
+  text-align: center;
 }
 
 .productTitle {
+  font-size: 1.5rem;
+  background-color: orange;
 }
 
 .productBrand {
+  font-size: 1rem;
+  background-color: green;
 }
 
 .productDescription {
+  background-color: gray;
 }
 
 .productPrice {
+  background-color: aqua;
+  color: black;
 }
 
 .productImage {
   background-color: red;
   width: 1fr;
-  height: 40px;
+  height: 120px;
 }
 
-p {
+/* p {
   text-align: center;
   margin: auto;
-}
+} */
 
-p:nth-child(even) {
+/* p:nth-child(even) {
   background-color: pink;
 }
 p:nth-child(odd) {
   background-color: skyblue;
-}
+} */
 
 .faculty-glyphic-regular {
   font-family: "Faculty Glyphic", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+/* Responsiveness */
