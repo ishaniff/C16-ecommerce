@@ -1,7 +1,100 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
 body {
+  background-color: #535e4b;
+}
+
+h1 {
+  color: #e9e6e2;
+}
+
+a {
+  color: #b5a4a3;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: auto;
+}
+
+/* Products */
+
+#productMain {
   background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
+
+.productGrid {
+  background-color: blue;
+  width: 75vw;
+  height: 75vh;
+}
+
+.productSide {
+  background-color: purple;
+  float: left;
+  width: 15vw;
+  height: 60vh;
+}
+
+.productItem {
+  background-color: black;
+  float: right;
+  width: 60vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+  color: white;
+}
+
+.productTitle {
+}
+
+.productBrand {
+}
+
+.productDescription {
+}
+
+.productPrice {
+}
+
+.productImage {
+  background-color: red;
+  width: 1fr;
+  height: 40px;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+}
+
+p:nth-child(even) {
+  background-color: pink;
+}
+p:nth-child(odd) {
+  background-color: skyblue;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
